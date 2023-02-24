@@ -6,7 +6,7 @@ Rendering a large list in React directly without virtualization
 
 Download (or clone) the project, install dependencies and run the project:
 ```bash
-npm install 
+npm install
 # --- or ---
 yarn install
 
@@ -25,11 +25,13 @@ Test the rendering performance issues as follows with Chrome DevTools:
 4. In the Rendering tab, enable FPS Meter.
 5. Scroll through the list one more time.
 
+![](./media/preview.gif)
+
 You'll notice a slow framerate (less than 60fps) and even a visible delay during initial rendering and scrolling events.
 
 ## Credits
 
-This project was created based on [this LogRocket article](https://blog.logrocket.com/rendering-large-lists-with-react-virtualized-82741907a6b3/). 
+This project was created based on [this LogRocket article](https://blog.logrocket.com/rendering-large-lists-with-react-virtualized-82741907a6b3/).
 Credit goes to the original article's author, [Esteban Herrera](https://blog.logrocket.com/author/ehrrera/).
 
 ## License
